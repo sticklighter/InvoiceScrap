@@ -1,0 +1,56 @@
+/**
+ * ⚠️ THEME CONFIGURATION — Tailwind v4
+ * Define theme tokens inside @theme { } using CSS variables.
+ * These become Tailwind utilities (e.g., --color-primary → bg-primary).
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Heebo:wght@400;500;600;700&display=swap');
+
+@theme {
+  /* Typography */
+  --font-sans: 'Inter', 'Heebo', system-ui, sans-serif;
+  --font-mono: ui-monospace, 'Cascadia Code', 'Source Code Pro', monospace;
+
+  /* Primary colors - Professional blue */
+  --color-primary: #2563eb;
+  --color-primary-hover: #1d4ed8;
+  --color-primary-foreground: #ffffff;
+
+  /* Secondary colors */
+  --color-secondary: #64748b;
+  --color-secondary-hover: #475569;
+  --color-secondary-foreground: #ffffff;
+
+  /* Success/Error states */
+  --color-success: #10b981;
+  --color-success-light: #d1fae5;
+  --color-error: #ef4444;
+  --color-error-light: #fee2e2;
+  --color-warning: #f59e0b;
+  --color-warning-light: #fef3c7;
+
+  /* Background colors */
+  --color-background: #f8fafc;
+  --color-surface: #ffffff;
+  --color-surface-hover: #f1f5f9;
+  --color-muted: #f1f5f9;
+  --color-muted-foreground: #64748b;
+
+  /* Border colors */
+  --color-border: #e2e8f0;
+  --color-border-focus: #2563eb;
+
+  /* Text colors */
+  --color-foreground: #0f172a;
+  --color-foreground-muted: #475569;
+
+  /* Dropzone */
+  --color-dropzone: #eff6ff;
+  --color-dropzone-border: #93c5fd;
+  --color-dropzone-active: #dbeafe;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 #0000000d;
+  --shadow-md: 0 4px 6px -1px #0000001a;
+  --shadow-lg: 0 10px 15px -3px #0000001a;
+}
